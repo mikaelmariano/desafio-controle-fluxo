@@ -1,18 +1,14 @@
-## Getting Started
+# Controle de Fluxo
+Este projeto foi escrito em Java e é um programa simples que pega dois parâmetros inteiros e calcula a contagem de números entre eles. 
+O programa apresenta leitura de entrada, tratamento de exceções e conceitos básicos de loop em Java.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Uso
+- O programa solicita que o usuário insira dois parâmetros inteiros.
+- Verifica se que as entradas são números inteiros válidos.
+- Sendo válidos, calcula e exibe a contagem de números entre os parâmetros fornecidos.   
+- Caso contrário, o programa exibirá uma mensagem de erro e solicitará novamente entradas válidas.
+  
+# Exception
+O programa emprega tratamento de exceções personalizado. Se o segundo parâmetro fornecido for menor que o primeiro parâmetro, uma "InvalidParametersException" será lançada, significando que o segundo parâmetro deve ser maior que o primeiro.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# Mikael Mariano dos Santos
